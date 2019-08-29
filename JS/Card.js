@@ -1,15 +1,15 @@
 const data = [
     {
-        text: "Opportunity",
-        example: "Life's chances are no longer limiting growth, understanding, and compassion..."
+        text: "Do Something Project",
+        example: "Co-founders Amira and Jade Wong were sad to see so many young people letting life pass them by, so they decided to do something about it!"
     },
     {
-        text: "Technology",
-        example: "Utilizing today's latest technology to mentor and empower our fellow man..."
+        text: "The Passion Project",
+        example: "Founder Calliope Lopez uses her passion for 'Silver Solopreneurs' (small business owners over the age of 60) to help them launch their own businesses to supplement their retirement."
     },
     {
-        text: "Growth",
-        example: "Providing the opportunity to help your world in a positive and life changing way..."
+        text: "Place for You Project",
+        example: "Founder Neha Vinasipran grew up in India, and moved to the US as an adult. She found that her accent seemed to set her apart, so she created a space for others to come where they always feel welcomed."
     },
 ];
 
