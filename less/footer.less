@@ -2,16 +2,12 @@
 
 footer {
     width: 100%;
-    margin: 0 auto;
-    height: 75px;
+    height: 70px;
     background-color: @footerColor;
     color: @footerText;
     font-family: 'Roboto', sans-serif;
     position: fixed;
     bottom: 0;
-    @media @phone {
-        margin-top: 10%;
-    }
     p {
         display: flex;
         justify-content: flex-end;
@@ -21,5 +17,8 @@ footer {
         display: flex;
         justify-content: flex-end;
         margin-right: 20px;
+        @media @phone {
+            width: 52%;
+        }
     }
 }

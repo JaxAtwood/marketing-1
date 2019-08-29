@@ -1,15 +1,15 @@
 const data = [
     {
-        text: "Name's Story",
-        example: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at unde earum in consequatur. "
+        text: "Opportunity",
+        example: "Life's chances are no longer limiting growth, understanding, and compassion..."
     },
     {
-        text: "Name's Story",
-        example: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at unde earum in consequatur. "
+        text: "Technology",
+        example: "Utilizing today's latest technology to mentor and empower our fellow man..."
     },
     {
-        text: "Name's Story",
-        example: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at unde earum in consequatur. "
+        text: "Growth",
+        example: "Providing the opportunity to help your world in a positive and life changing way..."
     },
 ];
 
@@ -21,9 +21,9 @@ data.forEach(data => {
 
 function createCard (text, example) {
     const card = document.createElement("div");
-    const cardSection = document.createElement("div");
-    const cardText = document.createElement("h1");
-    const buttonOpen = document.createElement("span");
+        const cardSection = document.createElement("div");
+            const cardText = document.createElement("h1");
+            const buttonOpen = document.createElement("span");
             const pContainer = document.createElement("div");
                 const cardExample = document.createElement("p");
 

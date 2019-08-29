@@ -5,6 +5,7 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
+    
     .toggle-on {
         // margin: 20px 10%;
         // padding: 0 20px 25px;
@@ -27,9 +28,14 @@
     height: 50px;
     overflow: hidden;
     width: 30%;
+    @media @phone {
+        width: 30%;
+    }
     .boxShadow();
+    
   .p-container {
     display: none;
+    
   }
 
   .p-container-open {
@@ -40,12 +46,24 @@
 h1 {
     font-size: 25px;
     text-align: center;
+    @media @phone {
+        font-size: 1.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
   }
 
 p {
     font-size: 18px;
     padding-top: 25px;
     text-align: center;
+    @media @phone {
+        font-size: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .expandButton {
