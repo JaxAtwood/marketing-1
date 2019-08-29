@@ -1,0 +1,91 @@
+//Mixins go here... parametrics mixins
+
+.picSpecs() {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 225px;
+}
+
+.buttonSpecs() {
+    font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.unitTextSpecs() {
+    margin-top:30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.unitTextSpecsMedia() {
+  display: flex;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.forTheButton(@buttonOneColor: #D0CCD0, @textColor: #424242, @fontSize: 20px) {
+    background: @buttonOneColor;
+    width: 200px;
+    height: 75px;
+    border-radius: 8px;
+    color: @textColor;
+    font-size: @fontSize;
+    font-family: 'Roboto', sans-serif;
+    
+    &:hover{
+        background-color:@textColor;
+        color:@navHover; 
+      }
+  }
+
+.forTheNav() {
+    color: @navText;
+
+    &:hover{
+      color: @navHover;
+    }
+  }
+
+  .navMediaSpecs() {
+    font-size: 1.5rem;
+  }
+
+  .playAdjust() {
+    font-size: 5rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+  }
+
+  .playAdjust2() {
+    font-size: 5rem;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px;
+    left: 40px;
+  }
+
+  .boxShadow() {
+    box-shadow: 0 4px 8px 0 rgba(28, 28, 28, 0.2), 0 6px 20px 0 rgba(28, 28, 28, 0.19);
+  }
+
+  .profileShading() {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .containerBoxShadow() {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    // border-radius: 20px;
+    width: 225px;
+  }
+
+  .navBoxShadow() {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 7px;
+  }
+
+  .githubLogoShadow() {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+  }
